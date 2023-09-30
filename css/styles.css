@@ -406,6 +406,8 @@ margin-bottom: 15px;
     gap: 20px;
     margin-top: 50px;
     margin-bottom: 42px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .sub_container-content1{
     border-radius: 5px;
@@ -472,8 +474,7 @@ margin-bottom: 15px;
 }
 @media(max-width:900px){
     .myheader{
-        margin-left: -50px;
-        width: 87vw;
+        margin-left: 0;
         
     
     }
@@ -487,13 +488,11 @@ margin-bottom: 15px;
     
 }
 .herosection{
-    width: 80vw;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .sub{
-    width: 80vw; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -761,6 +760,10 @@ margin-left: 40px;
         font-size: 1.5rem;
         margin-top: 30px;
     }
+    .sub_container-content1{
+        width: 340px;
+        height: 360px;
+    }
 }
 @media(max-width:550px){
     .herosection__container{
@@ -782,7 +785,7 @@ margin-left: 40px;
         border-bottom: solid 1px #ffb886;
     }
     .sub__container{
-        width: 530px;
+        width: 550px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -790,10 +793,18 @@ margin-left: 40px;
         margin-top: 50px;
         margin-bottom: 42px;
     }
+    .sub_container-content1{
+        height: 200px;
+        width: 550px;
+    }
+    .sub__container__img{
+height:200px ;
+width: 300px;
+    }
     .sub_container__btn{
         position: absolute;
         top: 90%;
-        right: 33.5%;
+        left: 3%;
     }
     .hl{
         width: 350px;
