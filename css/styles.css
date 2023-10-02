@@ -521,6 +521,27 @@ width: 280px;
     border-right: solid 1px #ffb886;
     border-bottom: solid 1px #ffb886;
 }
+.sub__container{
+    width: 700px;
+}
+.sub_container-content1{
+    border-radius: 5px;
+    position: relative;
+    width: 240px;
+    height: 215px;
+    background-color:#EF863B;
+}
+.sub__container__p{
+    line-height: 15.5px;
+}
+.sub__container__img{
+    border-radius: 5px;
+    padding: 2px;
+    float: right;
+    height: 110px;
+    width: 110px;
+    object-fit:cover;
+    }
 }
 @media(max-width:800px){
     .herosection__container{
@@ -535,9 +556,6 @@ width: 280px;
     .hl{
         width: 700px;  
     }
-    .sub__container{
-        width: 700px; 
-    }
     
     .herosection__h4{
         font-size: 0.9rem;
@@ -545,24 +563,7 @@ width: 280px;
         margin-top: 15px;
         margin-bottom: 15px;
     }
-    .sub__container__p{
-        line-height: 16px;
-    }
-    .sub__container__img{
-        border-radius: 5px;
-        padding: 2px;
-        float: right;
-        height: 110px;
-        width: 110px;
-        object-fit:cover;
-        }
-        .sub_container-content1{
-            border-radius: 5px;
-            position: relative;
-            width: 340px;
-            height: 215px;
-            background-color:#EF863B;
-        }
+    
         .myheader__content{
             border-radius: 7px;
             opacity: 0.9;
@@ -638,6 +639,9 @@ margin-left: 40px;
             border-left: solid 1px #ffb886;
             border-right: solid 1px #ffb886;
             border-bottom: solid 1px #ffb886;
+        }
+        .sub__container__p{
+            line-height: 15.2px;
         }
 }
 @media(max-width:600px){
@@ -763,9 +767,12 @@ margin-left: 40px;
         margin-top: 30px;
     }
     .sub_container-content1{
-        width: 340px;
+        width: 150px;
         height: 390px;
     }
+    .sub__container__img{
+        width: 149.8px;
+        }
 }
 @media(max-width:550px){
     
@@ -791,7 +798,7 @@ width: 450px;
         border-bottom: solid 1px #ffb886;
     }
     .sub__container{
-        width:530px;
+        width:500px;
         display:flex;
         flex-direction:column;
         align-items:center;
@@ -799,9 +806,24 @@ width: 450px;
         margin-top:50px;
         margin-bottom:42px;
     }
+      .sub_container-content1{
+            margin-top: 15px;
+            border-radius: 5px;
+            position: relative;
+            width: 500px;
+            height: 350px;
+            background-color:#EF863B;
+        }
+        .sub__container__img{
+            border-radius: 5px;
+            padding: 2px;
+            height: 250px;
+            width: 499px;
+            object-fit:cover;
+            }
     .sub_container__btn{
         position: absolute;
-        top: 90%;
+        top: 95%;
         right: 40%;
     }
     .hl{
@@ -830,21 +852,7 @@ width: 450px;
             margin-right: -70px;
             background-color:#FAFDFF;
         }
-        .sub_container-content1{
-            margin-left: -5px;
-            border-radius: 5px;
-            position: relative;
-            width: 500px;
-            height: 350px;
-            background-color:#EF863B;
-        }
-        .sub__container__img{
-            border-radius: 5px;
-            padding: 2px;
-            height: 250px;
-            width: 499px;
-            object-fit:cover;
-            }
+      
 }
 @media(max-width:537px){
     
@@ -870,7 +878,6 @@ line-height: 1.1rem;
         width: 170px;
     }
     .sub_container-content1{
-        margin-left: -50px;
         border-radius: 5px;
         position: relative;
         width: 100wv;
@@ -878,10 +885,10 @@ line-height: 1.1rem;
         background-color:#EF863B;
     }
     .sub__container__img{
-        border-radius: 5px;
-        padding: 2px;
+        float: none;
+        padding: 10px;
         height: 250px;
-        width: 489px;
+        width: 500px;
         object-fit:cover;
         }
         .sub__container__p{
@@ -893,6 +900,26 @@ padding: 15px;
      } 
 
 }
+
+@media(max-width:500px){
+    .sub__container{
+        width: 450px;
+    }
+    .sub_container-content1{
+        width: 450px;
+        height: 370px;
+    }
+    .sub__container__img{
+        float: none;
+        padding: 10px;
+        height: 250px;
+        width: 450px;
+        }
+        .sub__container__p{
+padding: 15px;
+        }
+}
+
 @media(max-width:465px){
     .myheader{
         width: 370px;
@@ -915,9 +942,30 @@ padding: 15px;
             width: 230px;
             text-align: left;
         }
+        .sub__container{
+            width: 400px;
+        }
+        .sub_container-content1{
+            width: 400px;
+            height: 370px;
+        }
+        .sub__container__img{
+            float: none;
+            padding: 10px;
+            height: 250px;
+            width: 400px;
+            }
+            .sub__container__p{
+    padding: 15px;
+            }
+            .sub_container__btn{
+                position: absolute;
+                top: 95%;
+                right: 37%;
+            }
        
 }
-@media(max-width:437px){
+@media(max-width:410px){
     .myheader{
         width: 340px;
             }
@@ -929,9 +977,32 @@ padding: 15px;
         width: 200px;
     }
     .herosection__img{
+        border-radius: 0 45px 10px 0;
         height: 343px;
         width: 180px;
         } 
+        .sub__container{
+            width: 350px;
+        }
+        .sub_container-content1{
+            width: 350px;
+            height: 370px;
+        }
+        .sub__container__img{
+            float: none;
+            padding: 10px;
+            height: 250px;
+            width: 350px;
+            }
+            .sub__container__p{
+                margin-top: -15px;
+                padding: 10px;
+            }
+            .sub_container__btn{
+                position: absolute;
+                top: 95%;
+                right: 32%;
+            }
        
 }
 @media(max-width:409px){
@@ -957,6 +1028,12 @@ padding: 15px;
         .myheader{
             width: 280px;
                 }
+
+        .herosection__h4{
+            padding: 5px;
+            line-height: 14px;
+            }
+
 }
 @media(max-width:360px){
     .herosection__img{
@@ -967,4 +1044,26 @@ padding: 15px;
         .myheader{
             width: 280px;
                 }
+                .sub__container{
+                    width: 300px;
+                }
+                .sub_container-content1{
+                    width: 300px;
+                    height: 370px;
+                }
+                .sub__container__img{
+                    float: none;
+                    padding: 10px;
+                    height: 250px;
+                    width: 300px;
+                    }
+                    .sub__container__p{
+                        margin-top: -15px;
+                        padding: 10px;
+                    }
+                    .sub_container__btn{
+                        position: absolute;
+                        top: 98%;
+                        left: 1%;
+                    }
 }
