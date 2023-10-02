@@ -922,7 +922,7 @@ padding: 15px;
 
 @media(max-width:465px){
     .myheader{
-        width: 360px;
+        width: 340px;
             }
     .herosection__img{
         float: right;
@@ -967,7 +967,7 @@ padding: 15px;
 }
 @media(max-width:410px){
     .myheader{
-        width: 340px;
+        width: 338px;
             }
     .herosection__h1{
         width: 140px;
