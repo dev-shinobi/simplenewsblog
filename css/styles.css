@@ -1042,7 +1042,7 @@ padding: 15px;
         }  
        
         .myheader{
-            width: 280px;
+            width: 270px;
                 }
                 .sub__container{
                     width: 300px;
@@ -1065,5 +1065,23 @@ padding: 15px;
                         position: absolute;
                         top: 98%;
                         left: 1%;
+                    }
+                    .myheader__content{
+                        border-radius: 7px;
+                        opacity: 0.9;
+                        display: none;
+                        position: absolute;
+                        top:55%; left:30% ; right:5%;
+                        background-color:#c9dae6;
+                        flex-direction: column;
+                        width: 180px;
+                        height: 180px;
+                        border-top: solid 3px #ffb886;
+                        border-left: solid 1px #ffb886;
+                        border-right: solid 1px #ffb886;
+                        border-bottom: solid 1px #ffb886;
+                    }
+                    .myhearder__logo{
+                        margin-left: -1px;
                     }
 }
