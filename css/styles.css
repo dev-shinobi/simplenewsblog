@@ -244,12 +244,13 @@ color: #FAFDFF;;
         position: relative;
 
         }
-        ul{
+        .myul{
             display: flex;
             list-style: none;
             flex-direction: column;
         }
-        li{
+       
+        .myli{
             position: relative;
             float: left;
             white-space: nowrap;
@@ -374,7 +375,7 @@ margin-bottom: 15px;
 .hl {
     border-bottom: 3px solid rgb(40, 47, 51);
     margin-top: 40px;
-    width: 100vw; 
+    width: 850px; 
     padding-right: 40px;
     position: relative;
     
@@ -1084,4 +1085,70 @@ padding: 15px;
                     .myhearder__logo{
                         margin-left: -1px;
                     }
+}
+.myfooter{
+    margin-top: 250px;
+    width: 100wv;
+    height: 570px;
+    background-color:#EF863B;
+    position: relative;
+    
+}
+.myfooter__newsletter{
+    position: absolute;
+    top: -24%;
+    left: 18.5%;
+    width: 850px; 
+    height: 280px;
+    background-color:#EF863B;
+    border: solid 1px black;
+    
+}
+.hl2 {
+    border-bottom: 3px solid rgb(40, 47, 51);
+    margin-top: 40px;
+    width: 100wv; 
+    
+}
+.myfooter__content{
+    margin-top: 260px;
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+}
+.myfooter__ul{
+    display: flex;
+    flex-direction: column;
+    list-style:none;
+}
+.myfooter__li{
+    list-style:none;
+    white-space: nowrap;  
+}
+.myfooter__content1{
+    width: 350px;
+    height: 240px;
+    border: 1px solid rgb(40, 47, 51);
+}
+.myfooter__content2{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    height: 240px;
+    border: 1px solid rgb(40, 47, 51); 
+}
+.myfooter__content3{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    height: 240px;
+    border: 1px solid rgb(40, 47, 51); 
+}
+.myfooter__base{
+    display: flex;
+    justify-content: center;
 }
