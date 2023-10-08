@@ -976,6 +976,8 @@ padding: 15px;
     }
     .herosection__h4{
         width: 200px;
+        
+
     }
     .herosection__img{
         border-radius: 0 45px 10px 0;
@@ -1039,9 +1041,13 @@ padding: 15px;
 @media(max-width:360px){
     .herosection__img{
         height: 343px;
-        width: 135px;
-        }  
-       
+        width: 129px;
+        } 
+         
+        .herosection__h4{
+            padding-right: 25px;
+            margin-right: 25px;
+            }
         .myheader{
             width: 270px;
                 }
