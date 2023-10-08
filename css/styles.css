@@ -1097,12 +1097,45 @@ padding: 15px;
 .myfooter__newsletter{
     position: absolute;
     top: -24%;
-    left: 18.5%;
+    right: 8.5%;
     width: 850px; 
     height: 280px;
-    background-color:#EF863B;
-    border: solid 1px black;
+    background-color:#ce7332;
+    border-radius: 30px;
     
+}
+.myfooter__newsletter__h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    color: #FAFDFF;
+}
+.myfooter__newsltter__form{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.myfooter__newsletter__input{
+    width: 500px;
+    height: 60px;
+    background-color:#FAFDFF;
+    border: 0;
+}
+.myfooter__newsletter__input::placeholder{
+    text-align: center;
+font-size: 25px;
+color: black;
+}
+.myfooter__newsletter__btn{
+    border-radius: 15px;
+    margin-top: 25px;
+    width: 200px;
+    height: 60px;
+    background-color: black;
+    color: #FAFDFF;
+    font-size: 25px;
+    border: 0;
 }
 .hl2 {
     border-bottom: 3px solid rgb(40, 47, 51);
@@ -1126,9 +1159,16 @@ padding: 15px;
     white-space: nowrap;  
 }
 .myfooter__content1{
+    font-size: 20px;
+    font-weight: 400;
     width: 350px;
     height: 240px;
-    border: 1px solid rgb(40, 47, 51);
+}
+.myfooter__logo{
+
+}
+.myfooter__p{
+    padding: 10px;
 }
 .myfooter__content2{
     text-align: center;
@@ -1137,7 +1177,31 @@ padding: 15px;
     flex-direction: column;
     width: 350px;
     height: 240px;
-    border: 1px solid rgb(40, 47, 51); 
+}
+.myfooter__h2{
+    margin-bottom: 15px;
+}
+.myfooter__ul{
+    font-size: 22px;
+}
+.myfooter__li{
+    margin: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.myfooter__li__img{
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+    float: left;
+}
+.myfooter__li__a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
 }
 .myfooter__content3{
     text-align: center;
@@ -1145,10 +1209,219 @@ padding: 15px;
     align-items: center;
     flex-direction: column;
     width: 350px;
-    height: 240px;
-    border: 1px solid rgb(40, 47, 51); 
+    height: 240px; 
 }
 .myfooter__base{
     display: flex;
     justify-content: center;
+}
+@media(min-width:1400px){
+    .myfooter__newsletter{
+       margin-left: auto;
+       margin-right: auto;
+        
+    }
+}
+@media(max-width:947px){
+    .myfooter__newsletter{
+        position: absolute;
+        top: -24%;
+        right: 4.2%;
+        
+    }
+}
+@media(max-width:885px){
+    .myfooter__newsletter{
+        position: absolute;
+        top: -24%;
+        right: 2.2%;
+        
+    }
+    .myfooter__p{
+        line-height: 24px;
+    }
+}
+@media(max-width:835px){
+    .myfooter__newsletter{
+        position: absolute;
+        top: -24%;
+        right: 12%;
+        width: 650px;
+        
+    }
+    .myfooter__p{
+        line-height: 24px;
+    }
+}
+@media(max-width:780px){
+    .myfooter__newsletter{
+        position: absolute;
+        top: -24%;
+        right: 8%;
+        width: 650px;
+        
+    }
+    .myfooter__p{
+        line-height: 24px;
+    }
+}
+@media(max-width:710px){
+    .myfooter__newsletter{
+        position: absolute;
+        top: -24%;
+        right: 6%;
+        width: 630px;
+        
+    }
+    .myfooter__p{
+        line-height: 24px;
+        font-size: 15px;
+    }
+}
+@media(max-width:670px){
+    .myfooter__newsletter{
+        position: absolute;
+        top: -24%;
+        right: 3%;
+        width: 630px;
+        
+    }
+    .myfooter__p{
+        line-height: 24px;
+        font-size: 15px;
+    }
+}
+@media(max-width:645px){
+    .myfooter__newsletter{
+        position: absolute;
+        top: -24%;
+        right: 9%;
+        width: 530px;
+        
+    }
+    .myfooter__newsletter__input{
+        width: 300px;
+    }
+    .myfooter__newsletter__input::placeholder{
+    font-size: 17px;
+    }
+    .myfooter__newsletter__btn{
+        border-radius: 10px;
+        width: 150px;
+        height: 50px;
+        background-color: black;
+        color: #FAFDFF;
+        font-size: 20px;
+        border: 0;
+    }
+}
+@media(max-width:590px){
+    .myfooter__newsletter{
+        position: absolute;
+        top: -24%;
+        right: 5%;
+        width: 530px;
+        
+    }
+    .myfooter__p{
+        line-height: 18px;
+        font-size: 15px;
+    }
+    .myfooter__ul{
+        font-size: 17px;
+    }
+}
+@media(max-width:545px){
+    .myfooter__newsletter{
+        position: absolute;
+        top: -24%;
+        right: 1.5%;
+        width: 530px;
+        
+    }
+    .myfooter__p{
+        line-height: 18px;
+        font-size: 15px;
+    }
+    .myfooter__ul{
+        font-size: 17px;
+    }
+}
+@media(max-width:540px){
+    .myfooter__newsletter{
+        position: absolute;
+        top: -13%;
+        right: 10%;
+        width: 430px;
+        
+    }
+    .myfooter__logo{
+display: flex;
+justify-content: center;
+    }
+    .myfooter__content{
+        text-align: center;
+        margin-top: 260px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        column-gap: 15px;
+    }
+    .myfooter__p{
+        line-height: 28px;
+        font-size: 20px;
+    }
+    .myfooter__li{
+        font-size: 20px; 
+    }
+    .myfooter{
+        height: 1050px;
+        
+    }
+}
+@media(max-width:460px){
+    .myfooter__newsletter{
+        position: absolute;
+        top: -13%;
+        right: 3%;
+        width: 430px;
+        
+    }
+}
+@media(max-width:430px){
+    .myfooter__newsletter{
+        position: absolute;
+        top: -13%;
+        right: 10%;
+        width: 350px;
+        height: 250px;
+        
+    }
+    .myfooter__newsltter__form{
+        margin-top: 35px;
+    }
+    .myfooter__newsletter__h2{
+        font-size: 18px;
+    }
+}
+@media(max-width:370px){
+    .myfooter__newsletter{
+        position: absolute;
+        top: -13%;
+        right: 3%;
+        width: 350px;
+        height: 250px;
+        
+    }
+}
+@media(max-width:360px){
+    .myfooter__newsletter{
+        position: absolute;
+        top: -13%;
+        right: 1%;
+        width: 340px;
+        height: 250px;
+        
+    }
 }
