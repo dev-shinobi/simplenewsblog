@@ -877,6 +877,7 @@ line-height: 1.1rem;
     .herosection__h4{
         font-size: 0.8rem;
         width: 170px;
+        font-size: 10px;
     }
     .sub_container-content1{
         border-radius: 5px;
@@ -942,6 +943,7 @@ padding: 15px;
             margin-top: 50px;
             width: 230px;
             text-align: left;
+            font-size: 10px;
         }
         .sub__container{
             width: 400px;
